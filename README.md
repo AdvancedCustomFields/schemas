@@ -14,7 +14,7 @@ Update your `block.json` to include:
 
 ```json
 {
-	"$schema": "https://advancedcustomfields.com/schemas/json/trunk/block.json"
+	"$schema": "https://advancedcustomfields.com/schemas/json/main/block.json"
 }
 ```
 
