@@ -24,7 +24,7 @@
 		},
 		"name": {
 			"type": "string",
-			"pattern": "^[a-z][a-z0-9-]*$",
+			"pattern": "^(?:([a-z0-9-]*)\/)?([a-z0-9-]*)$",
 			"description": "The name for a block is a unique string that identifies a block. ACF will automatically add an `acf/` namespace if not provided."
 		},
 		"__experimental": {
