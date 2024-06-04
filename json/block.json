@@ -71,13 +71,13 @@
 				},
 				"validate": {
 					"type": "boolean",
-					"description": "Should the fields in the block be validated as per the field group configuration. Default is true"
-					"default": true,
+					"description": "Should the fields in the block be validated as per the field group configuration. Default is true",
+					"default": true
 				},
 				"usePostMeta": {
 					"type": "boolean",
-					"description": "Should this block store its field values directly in post meta, rather than the block comment. When enabled, this block will be limited to once per page, and only as a top level block. These blocks will also not be supported as widgets or in the site editor/templates. Default is false."
-					"default": false,
+					"description": "Should this block store its field values directly in post meta, rather than the block comment. When enabled, this block will be limited to once per page, and only as a top level block. These blocks will also not be supported as widgets or in the site editor/templates. Default is false.",
+					"default": false
 				}
 			}
 		},
