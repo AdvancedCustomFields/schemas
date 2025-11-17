@@ -82,6 +82,11 @@
 					"type": "boolean",
 					"description": "Whether to hide ACF fields from the block editor sidebar (v3 blocks only). Default is false.",
 					"default": false
+				},
+				"autoInlineEditing": {
+					"type": "boolean",
+					"description": "ACF will automatically apply inline editing functionality to any HTML elements where an ACF field's value is the only thing within it. Default is false. Requires ACF v6.7+.",
+					"default": false
 				}
 			}
 		},
